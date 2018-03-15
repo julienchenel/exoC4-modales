@@ -8,6 +8,8 @@
     <title>Réserver un hôtel</title>
 </head>
 
+<!-- Liste des hôtels -->
+
 <body>
     <div class="row">
         <div class="col-md-6 offset-md-3">
@@ -23,36 +25,38 @@
                     <tr>
                         <td>Hôtel de la gare</td>
                         <td>
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#essai1">Réserver</button>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#boite_modale_1">Réserver</button>
                         </td>
                     </tr>
                     <tr>
                         <td>Hôtel du port</td>
                         <td>
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#essai2">Réserver</button>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#boite_modale_2">Réserver</button>
                         </td>
                     </tr>
                     <tr>
                         <td>Hôtel du coin de la rue</td>
                         <td>
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#essai3">Réserver</button>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#boite_modale_3">Réserver</button>
                         </td>
                     </tr>
                 </tbody>
             </table>
         </div>
     </div>
-    
-    <div id="essai1" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+
+    <!-- boite modale 1 -->
+
+    <div id="boite_modale_1" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Hôtel de la gare</h5>
+                    <h6 class="modal-title">Hôtel de la gare</h6>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <table class="table">
+                <table class="table largeur-table">
                     <thead>
                         <tr>
                             <th scope="col">Num chambre</th>
@@ -80,7 +84,7 @@
                             </td>
                             </td>
                             <td>
-                                <input type="date" name="">
+                                <input type="date" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
                             </td>
                         </tr>
                     </tbody>
@@ -93,16 +97,18 @@
         </div>
     </div>
 
-   <div id="essai2" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <!-- boite modale 2 -->
+
+    <div id="boite_modale_2" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Hôtel du port</h5>
+                    <h6 class="modal-title">Hôtel du port</h6>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <table class="table">
+                <table class="table largeur-table">
                     <thead>
                         <tr>
                             <th scope="col">Num chambre</th>
@@ -130,7 +136,7 @@
                             </td>
                             </td>
                             <td>
-                                <input type="date" name="">
+                                <input type="date" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
                             </td>
                         </tr>
                     </tbody>
@@ -142,17 +148,19 @@
             </div>
         </div>
     </div>
-   
-   <div id="essai3" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+
+    <!-- boite modale 3 -->
+
+    <div id="boite_modale_3" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Hôtel du coin de la rue</h5>
+                    <h6 class="modal-title">Hôtel du coin de la rue</h6>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <table class="table">
+                <table class="table largeur-table">
                     <thead>
                         <tr>
                             <th scope="col">Num chambre</th>
@@ -180,7 +188,7 @@
                             </td>
                             </td>
                             <td>
-                                <input type="date" name="">
+                                <input type="date" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
                             </td>
                         </tr>
                     </tbody>
@@ -192,6 +200,7 @@
             </div>
         </div>
     </div>
+
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

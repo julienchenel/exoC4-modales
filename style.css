@@ -1,9 +1,32 @@
+/*Style du titre principal*/
 
 h2 {
-	text-align: center;
-	padding-bottom: 30px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+
 }
 
-#largeur-table {
-	width: 100px;
+
+/*Style du titre des boîtesmodales*/
+
+h6 {
+
+    font-weight: bold;
+}
+
+
+/*largeur et centrage des tableau des boîtes modales*/
+
+.largeur-table {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Ecartement En-tête et tableau des boîtes modales*/
+
+.modal-header {
+    margin-bottom: 20px;
 }
