@@ -25,19 +25,19 @@
                     <tr>
                         <td>Hôtel de la gare</td>
                         <td>
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#boite_modale_1">Réserver</button>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#boite_modale_1" data-whatever="Hôtel de la gare">Réserver</button>
                         </td>
                     </tr>
                     <tr>
                         <td>Hôtel du port</td>
                         <td>
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#boite_modale_2">Réserver</button>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#boite_modale_1" data-whatever="Hôtel du port">Réserver</button>
                         </td>
                     </tr>
                     <tr>
                         <td>Hôtel du coin de la rue</td>
                         <td>
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#boite_modale_3">Réserver</button>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#boite_modale_1" data-whatever="Hôtel du coin de la rue">Réserver</button>
                         </td>
                     </tr>
                 </tbody>
@@ -45,13 +45,13 @@
         </div>
     </div>
 
-    <!-- boite modale 1 -->
+    <!-- boite modale -->
 
-    <div id="boite_modale_1" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div id="boite_modale" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h6 class="modal-title">Hôtel de la gare</h6>
+                    <h6 class="modal-title"></h6>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -96,115 +96,15 @@
             </div>
         </div>
     </div>
-
-    <!-- boite modale 2 -->
-
-    <div id="boite_modale_2" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h6 class="modal-title">Hôtel du port</h6>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <table class="table largeur-table">
-                    <thead>
-                        <tr>
-                            <th scope="col">Num chambre</th>
-                            <th scope="col">Nombre de personne</th>
-                            <th scope="col">Date</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <select class="custom-select custom-select-sm">
-                                    <option selected></option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="custom-select custom-select-sm">
-                                    <option selected></option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                </select>
-                            </td>
-                            </td>
-                            <td>
-                                <input type="date" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- boite modale 3 -->
-
-    <div id="boite_modale_3" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h6 class="modal-title">Hôtel du coin de la rue</h6>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <table class="table largeur-table">
-                    <thead>
-                        <tr>
-                            <th scope="col">Num chambre</th>
-                            <th scope="col">Nombre de personne</th>
-                            <th scope="col">Date</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <select class="custom-select custom-select-sm">
-                                    <option selected></option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                </select>
-                            </td>
-                            <td>
-                                <select class="custom-select custom-select-sm">
-                                    <option selected></option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                </select>
-                            </td>
-                            </td>
-                            <td>
-                                <input type="date" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="app.js"></script>
+    
 </body>
 
 </html>
